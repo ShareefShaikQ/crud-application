@@ -1,0 +1,38 @@
+export const initialTasks = [
+  {
+    id: 1,
+    title: 'Build Azure deployment pipeline',
+    description: 'Connect the React application to GitHub and configure continuous deployment.',
+    owner: 'Shareef',
+    status: 'In Progress',
+    priority: 'High',
+    dueDate: '2026-10-12',
+  },
+  {
+    id: 2,
+    title: 'Create employee dashboard',
+    description: 'Design a responsive dashboard with KPIs and recent activity.',
+    owner: 'Anjali',
+    status: 'Todo',
+    priority: 'Medium',
+    dueDate: '2026-10-15',
+  },
+  {
+    id: 3,
+    title: 'Review API integration',
+    description: 'Validate frontend API calls and error handling before release.',
+    owner: 'Rahul',
+    status: 'Completed',
+    priority: 'Low',
+    dueDate: '2026-10-08',
+  },
+  {
+    id: 4,
+    title: 'Prepare production checklist',
+    description: 'Document environment variables, deployment steps, and rollback process.',
+    owner: 'Priya',
+    status: 'Todo',
+    priority: 'High',
+    dueDate: '2026-10-18',
+  },
+]
